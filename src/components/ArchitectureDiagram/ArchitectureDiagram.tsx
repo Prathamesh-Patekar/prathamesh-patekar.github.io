@@ -21,9 +21,10 @@ export function ArchitectureDiagram() {
         <text x="400" y="175" className={styles.sublabel}>REST / Auth</text>
 
         {/* Database */}
-        <rect x="600" y="120" width="160" height="80" rx="8" className={styles.box} />
-        <text x="680" y="155" className={styles.label}>Database</text>
-        <text x="680" y="175" className={styles.sublabel}>PostgreSQL / MySQL</text>
+        <rect x="600" y="110" width="160" height="100" rx="8" className={styles.box} />
+        <text x="680" y="148" className={styles.label}>Database</text>
+        <text x="680" y="170" className={styles.sublabel}>PostgreSQL / MySQL</text>
+        <text x="680" y="188" className={styles.sublabel}>MongoDB</text>
 
         {/* Integrations */}
         <rect x="280" y="20" width="240" height="60" rx="8" className={styles.box} />

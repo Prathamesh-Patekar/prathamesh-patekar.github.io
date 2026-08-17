@@ -8,7 +8,7 @@ export const projects: Project[] = [
     platform: 'Laravel, React',
     summary:
       'Primary healthcare ecosystem with partner integration, medical document management, ABHA integration, and review & recommendation modules.',
-    tags: ['Laravel', 'React', 'REST APIs', 'PostgreSQL', 'Healthcare'],
+    tags: ['Laravel', 'React', 'REST APIs', 'PostgreSQL', 'MongoDB', 'Healthcare'],
     featured: true,
     image: '/images/projects/swasthaone.webp',
     caseStudy: {
@@ -17,7 +17,7 @@ export const projects: Project[] = [
       problem:
         'Healthcare platforms require secure document handling, standardized health ID integration (ABHA), multi-party partner workflows, and reliable recommendation systems — all while maintaining compliance and data privacy.',
       architecture:
-        'Multi-tier architecture with React frontend components communicating with Laravel REST APIs, backed by PostgreSQL/MySQL databases. External integrations connect to ABHA services, partner systems, and document storage layers.',
+        'Multi-tier architecture with React frontend components communicating with Laravel REST APIs, backed by PostgreSQL/MySQL and MongoDB. External integrations connect to ABHA services, partner systems, and document storage layers.',
       contribution:
         'Contributed to Laravel backend modules, REST API development, React UI components, partner integration workflows, medical document management features, and ABHA integration flows within the SwasthaOne ecosystem.',
       technology: [
@@ -27,6 +27,7 @@ export const projects: Project[] = [
         'REST APIs',
         'PostgreSQL',
         'MySQL',
+        'MongoDB',
         'JWT/Sanctum',
       ],
       challenges: [
@@ -49,7 +50,7 @@ export const projects: Project[] = [
     category: 'Business Application',
     platform: 'Laravel',
     summary:
-      'Internal order management system with dual authentication (credentials + OTP), admin workflows, and business operations.',
+      'Internal order management system with dual authentication (credentials + OTP), admin workflows, and day-to-day business operations.',
     tags: ['Laravel', 'PHP', 'MySQL', 'Bootstrap', 'REST APIs'],
     featured: true,
     image: '/images/projects/bharat-emart.webp',
@@ -82,7 +83,7 @@ export const projects: Project[] = [
     platform: 'Microweber · Laravel',
     summary:
       'Customized Microweber for the D2C Insider community — theme work plus custom PHP/Laravel functionality such as data import and related CMS features.',
-    tags: ['Microweber', 'Laravel', 'PHP', 'Custom Modules'],
+    tags: ['Microweber', 'Laravel', 'PHP', 'MySQL', 'Custom Modules'],
     featured: false,
     image: '/images/projects/d2c-insider.webp',
     caseStudy: {
@@ -91,13 +92,14 @@ export const projects: Project[] = [
       problem:
         'The platform needed more than a standard CMS theme: custom workflows (including import) to manage a large founder network, plus a credible public site for events, testimonials, and contact.',
       architecture:
-        'Microweber CMS on Laravel (PHP), customized theme and modules, Bootstrap 5 layout, SCSS-compiled assets, and validated contact forms — served on nginx.',
+        'Microweber CMS on Laravel (PHP), customized theme and modules, MySQL-backed content, Bootstrap 5 layout, SCSS-compiled assets, and validated contact forms — served on nginx.',
       contribution:
         'Customized Microweber and wrote custom code for additional CMS functionality — including import and related features — alongside theme, layout, and frontend implementation for community, events, and contact sections.',
       technology: [
         'Microweber',
         'Laravel',
         'PHP',
+        'MySQL',
         'Bootstrap 5',
         'HTML',
         'CSS',
@@ -122,8 +124,8 @@ export const projects: Project[] = [
     category: 'Corporate Website',
     platform: 'WordPress',
     summary:
-      'WordPress corporate site for TechSevin — customized the theme and wrote custom PHP, HTML, CSS, and JavaScript for services, case studies, testimonials, and contact/career flows.',
-    tags: ['WordPress', 'PHP', 'Custom Theme', 'CSS'],
+      'WordPress corporate site for TechSevin — customized the theme and wrote custom PHP, HTML, CSS, and JavaScript for services, case studies, and contact flows.',
+    tags: ['WordPress', 'PHP', 'MySQL', 'Custom Theme', 'CSS'],
     featured: false,
     image: '/images/projects/techsevin.webp',
     caseStudy: {
@@ -132,10 +134,10 @@ export const projects: Project[] = [
       problem:
         'A technology company website must communicate diverse service offerings, build trust through testimonials and partnerships, and drive contact/career conversions.',
       architecture:
-        'WordPress site with custom theme, service card sections, testimonial blocks, blog/insights feed, partnership logos, and contact/career page workflows.',
+        'WordPress site with custom theme, MySQL-backed content, service card sections, testimonial blocks, blog/insights feed, partnership logos, and contact/career page workflows.',
       contribution:
         'Customized the existing WordPress theme and wrote custom code for layout, templates, and frontend behavior — including service sections, case studies, testimonials, and conversion pages.',
-      technology: ['WordPress', 'PHP', 'HTML', 'CSS', 'JavaScript', 'jQuery'],
+      technology: ['WordPress', 'PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'jQuery'],
       challenges: [
         'Organizing multiple service categories (Ecommerce, Mobile, AI/ML, Cloud, etc.) in a clear, navigable structure.',
         'Balancing rich content (testimonials, blogs, partnerships) with page performance.',
@@ -186,7 +188,7 @@ export const projects: Project[] = [
     category: 'Luxury Fashion E-commerce',
     platform: 'Magento 2',
     summary:
-      'Luxury fashion and beauty e-commerce with product catalogue, checkout, rewards, and collect-in-store services.',
+      'Luxury fashion and beauty e-commerce with product catalogue, category navigation, checkout, rewards, and collect-in-store services.',
     tags: ['Magento', 'E-commerce', 'Fashion Retail'],
     featured: false,
     image: '/images/projects/harvey-nichols-riyadh.webp',

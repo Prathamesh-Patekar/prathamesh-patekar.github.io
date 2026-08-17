@@ -12,19 +12,15 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
   return (
     <article className={styles.card}>
-      <div className={styles.header}>
-        <div className={styles.iconWrap} aria-hidden="true">
-          <Icon size={20} strokeWidth={1.75} />
-        </div>
-        <div className={styles.headerText}>
-          <span className={styles.category}>{project.category}</span>
-          <h3 className={styles.title}>{project.title}</h3>
-        </div>
+      <div className={styles.iconWrap} aria-hidden="true">
+        <Icon size={20} strokeWidth={1.75} />
       </div>
-
-      <p className={styles.summary}>{project.summary}</p>
-
-      <InlineList items={project.tags.slice(0, 4)} muted className={styles.meta} />
+      <div className={styles.copy}>
+        <span className={styles.category}>{project.category}</span>
+        <h3 className={styles.title}>{project.title}</h3>
+        <p className={styles.summary}>{project.summary}</p>
+        <InlineList items={project.tags} muted className={styles.meta} />
+      </div>
     </article>
   );
 }

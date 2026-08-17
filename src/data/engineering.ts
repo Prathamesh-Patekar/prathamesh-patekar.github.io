@@ -29,6 +29,6 @@ export const engineeringSteps: EngineeringStep[] = [
   {
     step: '06',
     title: 'Deploy',
-    description: 'Linux / application deployment',
+    description: 'Linux, Docker, and application deployment',
   },
 ];

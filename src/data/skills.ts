@@ -31,10 +31,11 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     title: 'Database Systems',
-    description: 'Relational data modeling, optimization, and production reliability.',
+    description: 'Data modeling, optimization, and production reliability.',
     skills: [
       'MySQL',
       'PostgreSQL',
+      'MongoDB',
       'Database Management',
       'Query Optimization',
     ],
@@ -51,6 +52,7 @@ export const skillGroups: SkillGroup[] = [
       'Git',
       'GitHub',
       'Linux / Ubuntu',
+      'Docker',
       'Postman',
       'Application Deployment',
     ],

@@ -1,10 +1,12 @@
 .list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline;
   justify-content: flex-start;
+  column-gap: 0;
+  row-gap: 0.35rem;
   margin: 0;
-  font-size: 0.875rem;
+  font-size: var(--text-sm);
   color: var(--color-text);
   line-height: 1.5;
   letter-spacing: -0.005em;
@@ -13,7 +15,8 @@
 
 .item {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
+  max-width: 100%;
   white-space: nowrap;
 }
 

@@ -11,12 +11,12 @@ export function InlineList({ items, muted = false, className = '' }: InlineListP
     <p className={`${styles.list} ${muted ? styles.muted : ''} ${className}`}>
       {items.map((item, index) => (
         <span key={item} className={styles.item}>
-          {index > 0 && (
+          {item}
+          {index < items.length - 1 && (
             <span className={styles.separator} aria-hidden="true">
               ·
             </span>
           )}
-          {item}
         </span>
       ))}
     </p>

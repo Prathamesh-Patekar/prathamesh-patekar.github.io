@@ -21,6 +21,8 @@ export const profile: Profile = {
     'Magento',
     'Shopify',
     'MySQL',
+    'MongoDB',
+    'Docker',
     'REST APIs',
   ],
   stats: [
