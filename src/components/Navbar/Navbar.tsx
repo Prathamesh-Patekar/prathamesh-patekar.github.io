@@ -20,7 +20,7 @@ export function Navbar() {
   const handleClick = () => setOpen(false);
 
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${open ? styles.headerOpen : ''}`}>
       <nav className={`container ${styles.nav}`} aria-label="Main navigation">
         <a href="#" className={styles.brand} onClick={handleClick}>
           <span className={styles.dot} aria-hidden="true" />

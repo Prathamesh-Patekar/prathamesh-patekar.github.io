@@ -79,32 +79,41 @@ export const projects: Project[] = [
     slug: 'd2c-insider',
     title: 'D2C Insider',
     category: 'Community Platform',
-    platform: 'CMS (Microweber)',
+    platform: 'Microweber · Laravel',
     summary:
-      'D2C founder and CXO community platform with member ecosystem, events, testimonials, video library, and contact workflows.',
-    tags: ['WordPress', 'CMS', 'Responsive', 'Community'],
+      'Customized Microweber for the D2C Insider community — theme work plus custom PHP/Laravel functionality such as data import and related CMS features.',
+    tags: ['Microweber', 'Laravel', 'PHP', 'Custom Modules'],
     featured: false,
     image: '/images/projects/d2c-insider.webp',
     caseStudy: {
       overview:
         'D2C Insider is a community platform for Direct-to-Consumer brand founders, enablers, and investors — featuring member showcases, events, testimonials, and engagement content.',
       problem:
-        'The platform needed to present a large founder network credibly, highlight community stats, showcase events and testimonials, and provide an accessible contact channel.',
+        'The platform needed more than a standard CMS theme: custom workflows (including import) to manage a large founder network, plus a credible public site for events, testimonials, and contact.',
       architecture:
-        'CMS-driven marketing site with Bootstrap layout, custom theme assets, content sections for founders, events, and member testimonials, plus validated contact forms.',
+        'Microweber CMS on Laravel (PHP), customized theme and modules, Bootstrap 5 layout, SCSS-compiled assets, and validated contact forms — served on nginx.',
       contribution:
-        'Contributed to responsive frontend development, content section implementation, community showcase layouts, events and testimonial sections, and contact form integration.',
-      technology: ['CMS', 'Bootstrap', 'HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+        'Customized Microweber and wrote custom code for additional CMS functionality — including import and related features — alongside theme, layout, and frontend implementation for community, events, and contact sections.',
+      technology: [
+        'Microweber',
+        'Laravel',
+        'PHP',
+        'Bootstrap 5',
+        'HTML',
+        'CSS',
+        'SCSS',
+        'JavaScript',
+      ],
       challenges: [
-        'Presenting large-scale community data (7000+ brands, 2000+ enablers) in an engaging, scannable format.',
-        'Building responsive layouts for diverse content types — founder grids, events, video library, and forms.',
+        'Extending Microweber with custom functionality (such as import) without breaking core CMS behavior.',
+        'Presenting large-scale community data in an engaging, scannable public site.',
       ],
       solutions: [
-        'Designed stat-driven hero sections and organized founder/testimonial grids for social proof.',
-        'Implemented responsive section layouts with consistent spacing and mobile-first breakpoints.',
+        'Implemented custom Microweber/Laravel modules and import-related workflows on top of the existing CMS.',
+        'Built responsive community, events, and testimonial sections with consistent layout and mobile-first breakpoints.',
       ],
       outcome:
-        'Delivered a professional community platform that effectively showcases the D2C Insider network, events, and member engagement content.',
+        'A Microweber-based community platform with custom functionality for content operations, plus a public site that showcases the D2C Insider network, events, and member engagement.',
     },
   },
   {
@@ -113,8 +122,8 @@ export const projects: Project[] = [
     category: 'Corporate Website',
     platform: 'WordPress',
     summary:
-      'Corporate digital engineering website presenting services, case studies, client testimonials, insights, and contact/career workflows.',
-    tags: ['WordPress', 'PHP', 'Responsive', 'Corporate'],
+      'WordPress corporate site for TechSevin — customized the theme and wrote custom PHP, HTML, CSS, and JavaScript for services, case studies, testimonials, and contact/career flows.',
+    tags: ['WordPress', 'PHP', 'Custom Theme', 'CSS'],
     featured: false,
     image: '/images/projects/techsevin.webp',
     caseStudy: {
@@ -125,7 +134,7 @@ export const projects: Project[] = [
       architecture:
         'WordPress site with custom theme, service card sections, testimonial blocks, blog/insights feed, partnership logos, and contact/career page workflows.',
       contribution:
-        'Contributed to WordPress theme development, responsive service section layouts, case study presentation, client testimonial integration, and frontend performance optimization.',
+        'Customized the existing WordPress theme and wrote custom code for layout, templates, and frontend behavior — including service sections, case studies, testimonials, and conversion pages.',
       technology: ['WordPress', 'PHP', 'HTML', 'CSS', 'JavaScript', 'jQuery'],
       challenges: [
         'Organizing multiple service categories (Ecommerce, Mobile, AI/ML, Cloud, etc.) in a clear, navigable structure.',
@@ -145,8 +154,8 @@ export const projects: Project[] = [
     category: 'Luxury E-commerce',
     platform: 'WordPress',
     summary:
-      'Luxury watch e-commerce built on WordPress — brand catalogue, product details, request-an-offer workflow, and editorial content.',
-    tags: ['WordPress', 'E-commerce', 'Luxury Retail', 'PHP'],
+      'Luxury watch e-commerce on WordPress — customized the theme and wrote custom code for brand catalogue, product pages, and the request-an-offer workflow.',
+    tags: ['WordPress', 'PHP', 'Custom Theme', 'E-commerce'],
     featured: false,
     image: '/images/projects/rose-watch-bar.webp',
     caseStudy: {
@@ -155,9 +164,9 @@ export const projects: Project[] = [
       problem:
         'Luxury watch retail requires brand-first navigation, high-value product presentation, and a personalized purchase flow rather than standard cart checkout for premium items.',
       architecture:
-        'WordPress site with custom theme, brand navigation, product catalogue pages, modal-based request-an-offer forms with validation, and editorial blog content.',
+        'WordPress site with a customized theme, brand navigation, product catalogue pages, modal-based request-an-offer forms with validation, and editorial blog content.',
       contribution:
-        'Contributed to WordPress theme development, product catalogue UX, brand navigation structure, request-an-offer workflow implementation, and responsive layout development.',
+        'Customized the WordPress theme and wrote custom code for layout, templates, and frontend behavior — including brand catalogue, product detail pages, and the request-an-offer workflow.',
       technology: ['WordPress', 'PHP', 'HTML', 'CSS', 'JavaScript'],
       challenges: [
         'Implementing a request-an-offer flow with product context, international phone support, and form validation for high-value items.',
@@ -165,10 +174,10 @@ export const projects: Project[] = [
       ],
       solutions: [
         'Built modal-based offer request forms pre-populated with product details and reCAPTCHA verification.',
-        'Designed brand-organized catalogue navigation with consistent product detail templates.',
+        'Customized catalogue navigation and product templates for a consistent luxury presentation.',
       ],
       outcome:
-        'Delivered a premium e-commerce experience that reflects luxury watch retail standards with concierge-style purchasing workflows.',
+        'A premium WordPress e-commerce experience with a customized theme and concierge-style purchasing workflows suited to luxury watch retail.',
     },
   },
   {
