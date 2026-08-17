@@ -41,15 +41,15 @@
 
 @media (max-width: 768px) {
   :root {
-    --section-gap: 2.5rem;
-    --container-padding: 1.125rem;
+    --section-gap: 3rem;
+    --container-padding: 1.25rem;
     --nav-height: 56px;
   }
 }
 
 @media (max-width: 480px) {
   :root {
-    --section-gap: 2rem;
-    --container-padding: 1rem;
+    --section-gap: 2.75rem;
+    --container-padding: 1.25rem;
   }
 }

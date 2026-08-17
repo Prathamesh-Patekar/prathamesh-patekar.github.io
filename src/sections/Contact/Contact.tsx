@@ -44,9 +44,11 @@ export function Contact() {
                 <span>{contact.location}</span>
               </span>
             </div>
-            <Button href={`mailto:${contact.email}`} variant="primary">
-              Send an email
-            </Button>
+            <div className={styles.cta}>
+              <Button href={`mailto:${contact.email}`} variant="primary">
+                Send an email
+              </Button>
+            </div>
           </PanelRow>
         </Panel>
       </div>

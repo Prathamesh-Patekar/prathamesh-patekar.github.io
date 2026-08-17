@@ -56,3 +56,20 @@
   border-radius: 50%;
   background: rgba(96, 165, 250, 0.55);
 }
+
+@media (max-width: 768px) {
+  .certTitle {
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+
+  .certDetail {
+    font-size: 0.8125rem;
+    line-height: 1.6;
+  }
+
+  .activities li {
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+}

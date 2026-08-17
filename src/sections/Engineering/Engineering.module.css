@@ -29,7 +29,22 @@
 
 @media (max-width: 640px) {
   .row {
-    grid-template-columns: 2.5rem 1fr;
-    gap: 1rem;
+    grid-template-columns: 2.25rem 1fr;
+    gap: 0.875rem;
+    align-items: start;
+  }
+
+  .step {
+    padding-top: 0.15rem;
+  }
+
+  .title {
+    font-size: 0.9375rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .desc {
+    font-size: 0.8125rem;
+    line-height: 1.55;
   }
 }

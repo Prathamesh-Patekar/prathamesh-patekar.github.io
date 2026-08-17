@@ -10,7 +10,7 @@ export function InlineList({ items, muted = false, className = '' }: InlineListP
   return (
     <p className={`${styles.list} ${muted ? styles.muted : ''} ${className}`}>
       {items.map((item, index) => (
-        <span key={item}>
+        <span key={item} className={styles.item}>
           {index > 0 && (
             <span className={styles.separator} aria-hidden="true">
               ·

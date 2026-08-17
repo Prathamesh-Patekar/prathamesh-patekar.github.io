@@ -22,11 +22,23 @@
 }
 
 @media (max-width: 768px) {
+  .sections {
+    gap: 0;
+    padding-bottom: 0;
+  }
+
   .sections > section {
-    scroll-margin-top: calc(var(--nav-height) + 0.5rem);
+    scroll-margin-top: calc(var(--nav-height) + 0.75rem);
+    padding-block: var(--section-gap);
+  }
+
+  .sections > section:first-child {
+    padding-top: 0;
   }
 
   .sections > section:nth-child(even) {
-    padding-block: 2rem;
+    margin-inline: calc(-1 * var(--container-padding));
+    padding-inline: var(--container-padding);
+    padding-block: var(--section-gap);
   }
 }

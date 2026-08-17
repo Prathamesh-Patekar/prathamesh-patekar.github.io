@@ -102,20 +102,30 @@
 
 @media (max-width: 768px) {
   .main {
-    padding: calc(var(--nav-height) + 1.5rem) 0 2.5rem;
+    padding: calc(var(--nav-height) + 1.5rem) 0 2.75rem;
   }
 
   .header {
-    margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .title {
+    font-size: clamp(1.5rem, 7vw, 1.875rem);
   }
 
   .content {
-    gap: 2rem;
+    gap: 1.75rem;
+  }
+
+  .block h2 {
+    font-size: 0.9375rem;
+    margin-bottom: 0.625rem;
   }
 
   .block p,
   .block li {
     font-size: 0.875rem;
+    line-height: 1.7;
   }
 }

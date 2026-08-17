@@ -22,7 +22,7 @@ export const profile: Profile = {
   stats: [
     { label: 'Experience', value: '4+ Years' },
     { label: 'Production apps', value: '9+ Projects' },
-    { label: 'Domains', value: 'Healthcare · E-commerce · Enterprise' },
+    { label: 'Domains', value: 'Health · Commerce · Enterprise' },
   ],
   aiTools: [
     { name: 'ChatGPT', use: 'Code generation, debugging, documentation' },

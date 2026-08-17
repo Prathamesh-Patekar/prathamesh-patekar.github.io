@@ -144,28 +144,48 @@
 
 @media (max-width: 900px) {
   .hero {
-    padding: calc(var(--nav-height) + 2rem) 0 var(--section-gap);
+    padding: calc(var(--nav-height) + 1.75rem) 0 var(--section-gap);
   }
 
   .layout {
     grid-template-columns: 1fr;
-    gap: 2rem;
-    margin-bottom: 1.75rem;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .profileCard {
     order: -1;
     justify-self: center;
-    max-width: 200px;
+    max-width: 168px;
+  }
+
+  .name {
+    font-size: clamp(1.875rem, 8vw, 2.25rem);
+    margin-bottom: 0.5rem;
+  }
+
+  .meta {
+    justify-content: center;
+    margin-bottom: 1rem;
   }
 
   .about {
-    max-width: none;
+    max-width: 36ch;
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
   }
-}
 
-@media (max-width: 640px) {
   .actions {
+    width: 100%;
+    max-width: 22rem;
     flex-direction: column;
     align-items: stretch;
     gap: 0.875rem;
@@ -173,6 +193,7 @@
 
   .actions :global(a:first-child) {
     width: 100%;
+    min-height: 44px;
     justify-content: center;
   }
 
@@ -181,6 +202,27 @@
   }
 
   .stats {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .stat {
+    padding: 0.875rem 0.5rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .statValue {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .statLabel {
+    font-size: 0.625rem;
+  }
+
+  .statValue {
+    font-size: 0.6875rem;
+    line-height: 1.3;
   }
 }

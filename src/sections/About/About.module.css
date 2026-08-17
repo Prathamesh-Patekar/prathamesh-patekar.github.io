@@ -21,6 +21,15 @@
 @media (max-width: 640px) {
   .row {
     grid-template-columns: 1fr;
-    gap: 0.35rem;
+    gap: 0.25rem;
+  }
+
+  .name {
+    font-size: 0.9375rem;
+  }
+
+  .use {
+    font-size: 0.875rem;
+    line-height: 1.6;
   }
 }

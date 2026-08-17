@@ -25,16 +25,14 @@ export function Skills() {
 
             return (
               <PanelRow key={group.title} className={styles.row}>
-                <div className={styles.meta}>
-                  <span className={styles.iconWrap} aria-hidden="true">
-                    <Icon size={18} strokeWidth={1.75} />
-                  </span>
-                  <div>
-                    <h3 className={styles.title}>{group.title}</h3>
-                    <p className={styles.description}>{group.description}</p>
-                  </div>
+                <span className={styles.iconWrap} aria-hidden="true">
+                  <Icon size={18} strokeWidth={1.75} />
+                </span>
+                <div className={styles.copy}>
+                  <h3 className={styles.title}>{group.title}</h3>
+                  <p className={styles.description}>{group.description}</p>
+                  <InlineList items={group.skills} muted className={styles.skills} />
                 </div>
-                <InlineList items={group.skills} className={styles.skills} />
               </PanelRow>
             );
           })}

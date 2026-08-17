@@ -15,9 +15,16 @@
 .linkStatic {
   display: inline-flex;
   align-items: center;
-  gap: 0.625rem;
+  gap: 0.75rem;
+  min-width: 0;
   font-size: var(--text-base);
   color: var(--color-text-muted);
+}
+
+.link span,
+.linkStatic span {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .link {
@@ -28,22 +35,33 @@
   color: var(--color-text);
 }
 
+.cta {
+  flex-shrink: 0;
+}
+
 @media (max-width: 768px) {
   .row {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1.25rem;
   }
 
-  .row :global(a) {
+  .links {
+    gap: 1rem;
+  }
+
+  .cta {
     width: 100%;
-    justify-content: center;
+  }
+
+  .cta :global(a) {
+    width: 100%;
+    min-height: 44px;
   }
 }
 
 @media (max-width: 640px) {
   .link,
   .linkStatic {
-    font-size: var(--text-sm);
-    word-break: break-word;
+    font-size: 0.875rem;
   }
 }

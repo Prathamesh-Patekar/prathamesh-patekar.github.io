@@ -83,6 +83,12 @@ img {
   transform: translateY(0);
 }
 
+@media (max-width: 768px) {
+  body {
+    line-height: 1.65;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

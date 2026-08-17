@@ -97,12 +97,14 @@
   display: none;
   align-items: center;
   justify-content: center;
+  width: 44px;
+  height: 44px;
   background: none;
   border: none;
   color: var(--color-text);
   cursor: pointer;
-  padding: 0.35rem;
-  margin-right: -0.35rem;
+  padding: 0;
+  margin-right: -0.5rem;
   flex-shrink: 0;
 }
 
@@ -142,8 +144,9 @@
 
   .links a {
     display: block;
-    padding: 0.875rem var(--container-padding);
-    font-size: 0.9375rem;
+    padding: 0.9375rem var(--container-padding);
+    font-size: 1rem;
+    line-height: 1.4;
   }
 
   .links a.active::after {
