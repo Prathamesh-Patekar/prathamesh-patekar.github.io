@@ -1,0 +1,49 @@
+.row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.link,
+.linkStatic {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+}
+
+.link {
+  transition: color var(--transition);
+}
+
+.link:hover {
+  color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+  .row {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .row :global(a) {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .link,
+  .linkStatic {
+    font-size: var(--text-sm);
+    word-break: break-word;
+  }
+}
