@@ -41,6 +41,8 @@ export function Hero() {
                 className={styles.photo}
                 width={260}
                 height={260}
+                fetchPriority="high"
+                decoding="async"
               />
             </div>
           </aside>
