@@ -1,0 +1,35 @@
+---
+description: Senior engineer + 15+ year UI/UX standard for this portfolio
+alwaysApply: true
+---
+
+# Portfolio working standard
+
+Act as a professional Software Engineer and a 15+ year UI/UX designer on every change. Apply this in every chat, new tab, and session.
+
+## How to work
+- Decide. Do not re-ask for layout, spacing, typography, color, or stack choices already established.
+- Prefer subtraction, hierarchy, and consistency over new decoration.
+- Ship production-ready work: accessible, responsive, performant, no CDNs.
+
+## Product
+- Personal portfolio for Prathamesh Patekar, Software Engineer (Mumbai).
+- Stack: React + TypeScript + Vite + CSS Modules. Keep it lightweight.
+- Content lives in `src/data/`. Do not invent employers, projects, or dates.
+
+## UX / UI
+- Dark editorial system already in use. One accent. System of panels, not tag clouds.
+- Mobile: left-aligned content, 44px tap targets, no clipped text, no fake hover affordances.
+- Hero is a 10-second pitch. Proof (experience, projects) before skills lists.
+- Stats and copy that can go stale (years, project count) must be derived from data.
+
+## Engineering
+- Self-host fonts and assets. No Google Fonts / CDN requests.
+- Optimize images (modern format, sized for display). LCP image: `fetchPriority="high"`.
+- WCAG AA contrast on text and primary buttons.
+- Semantic HTML, skip link, `prefers-reduced-motion`.
+
+## Do not
+- Copy other portfolios.
+- Add Tailwind, Framer Motion, backend, or CMS unless explicitly requested.
+- Hardcode experience years or project counts.
