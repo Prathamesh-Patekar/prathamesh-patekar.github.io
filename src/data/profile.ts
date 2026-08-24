@@ -1,9 +1,7 @@
 import type { Profile } from '../types';
 import { experience } from './experience';
 import { projects } from './projects';
-import { getYearsOfExperience, formatYearsOfExperience } from '../utils/experienceYears';
-
-const years = getYearsOfExperience(experience);
+import { formatYearsOfExperience } from '../utils/experienceYears';
 
 export const profile: Profile = {
   name: 'Prathamesh Patekar',
@@ -11,7 +9,8 @@ export const profile: Profile = {
   headline:
     'Building scalable web applications, REST APIs, and production e-commerce systems.',
   photo: '/images/profile/prathamesh.webp',
-  about: `${years}+ years delivering production software across healthcare, e-commerce, and enterprise — from Laravel APIs and React interfaces to WordPress, Magento, and Shopify platforms.`,
+  about:
+    'Designing and shipping production web applications across healthcare, e-commerce, and enterprise — with strong expertise in PHP/Laravel, React, REST APIs, databases, and system integrations.',
   techStack: [
     'Laravel',
     'PHP',
